@@ -13,6 +13,7 @@ public class Main {
         String guessedCode;
         boolean quit = false;
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Welcome to Hangman game!");
         System.out.println("The secret code is prepared: ****");
 
         while (!quit){
